@@ -51,8 +51,6 @@ func pt1(wall firewall) {
 }
 
 func pt2(wall firewall) {
-	// delay := 0
-
 	for delay := 0; true; delay++ {
 		fail := false
 		for key, val := range wall {
